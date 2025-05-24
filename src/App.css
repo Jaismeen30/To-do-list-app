@@ -1,0 +1,85 @@
+
+
+
+/*my content*/
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 100vw; 
+  box-sizing: border-box;
+}
+
+h1{
+  font-family:'Courier New', Courier, monospace;
+  color: #321908;
+}
+.input-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  color: bisque;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+button {
+  padding: 8px;
+  color: bisque;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: bisque;
+}
+ul{
+  background-color: #6F4E37;
+  font-family:'Courier New', Courier, monospace;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+li.done span {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+.cross{
+  border-radius: 50%;
+  background-color: rgb(130, 120, 107);
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-right: 5px;
+  margin-left: 20px;margin-bottom: 5px;
+}
+li span {
+  cursor: pointer;
+  flex-shrink: 1;
+}
+
+.task-text{
+  margin-right: 10rem;
+  margin-left: -10rem;
+  text-align: left;
+}
