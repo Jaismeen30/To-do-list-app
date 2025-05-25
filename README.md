@@ -13,4 +13,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 
-[The demo video --->](https://final-web-dev-daaab.web.app/videos/to-do-list.mov)
+[Demo video](https://final-web-dev-daaab.web.app/videos/to-do-list.mov)
